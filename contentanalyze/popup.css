@@ -1,0 +1,38 @@
+body {
+  width: 400px;
+  padding: 15px;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+textarea {
+  height: 150px;
+  padding: 8px;
+  resize: vertical;
+}
+
+button {
+  padding: 8px;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+.highlight {
+  color: red;
+  font-weight: bold;
+}
+
+#fileInput {
+  margin-bottom: 10px;
+}
